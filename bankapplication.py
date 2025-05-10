@@ -8,14 +8,14 @@ def create_account() :
             print("Account Already Exist")
         else:
              password = input("enter your password:")
-              account [user]  =     {   "password":password,   "balance"   :0}
-              print("Account Has Been Successfully Created:")
+             account[user]={"password":password,balance:0}
+             print("Account Has Been Successfully Created")
 
 def login():
     Print("LOGIN")
     Name=Input("User Name:")
     password=input("password:")
-    if name in accountand account[name] 
+    if name in account and account  [name] 
     ["password"]    ==  password:
        print("Log In Successful")
     else:
