@@ -1,4 +1,5 @@
-  #Create  Account account={}
+  #Create  Account 
+    account={}
    
            
 def create_account() :
@@ -22,7 +23,7 @@ def login():
         print("Invalid User Name Or Password")
 def menu():
     print("1.Check Balance")
-    print("2.Check Balance")
+    print("2.Withdraw Money")
     print("3.Deposit Money")
     print("4.exit From The Menu")
 
