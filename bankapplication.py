@@ -14,7 +14,7 @@ def create_account() :
 
 def login():
     Print("LOGIN")
-    Name=Input("User Name:")
+    name=input("User Name:")
     password=input("password:")
     if name in account and account  [name] 
     ["password"]    ==  password:
